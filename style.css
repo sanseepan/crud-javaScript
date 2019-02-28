@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.primary-button{
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.edit-button{
+    padding: 5px 30px 5px 30px;
+    background-color: green;
+    color: lightgray;
+}
+
+.delete-button{
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(255, 0, 0);
+    color: lightgray;
+
+
+}
+
+header{
+    width: 100%;
+    background-color: cadetblue;
+    position: fixed;
+    z-index: 2;
+
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    padding-top: 100px;
+    max-width: 1000px;
+
+}
+
+#container{
+    padding: 40px;
+    background-color: lightgray;
+
+}
+
+
+#counter{
+    font-size: 18px;
+}
+
+table{
+    width: 100%;
+}
+
+
+table th{
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+
+table td{
+    padding: 10px;
+}
+
+td button{
+    padding: 5px 15px 5px 15px;
+
+}
+
+input[type=text],input[type=submit] {
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+
+}
+#spoiler{
+    display: none;
+}
+
+#spoiler a{
+    color: red;
+}
+
+
+
+
+
+
+

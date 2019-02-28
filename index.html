@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<header>
+    <h1>CRUD APP</h1>
+</header>
+<main>
+    <div id="container">
+        <button class="primary-button"><p id="counter"></p></button>
+
+<table>
+
+    <tr>
+        <th>Products</th>
+        <th>Price/CHF</th>
+        <th>Description</th>
+    </tr>
+    <tbody id="products"></tbody>
+
+</table>
+
+
+
+<form action="javascript:void(0);" method="post" onsubmit="app.Add()">
+
+    <input type="text" id="add-name" placeholder="Add product">
+    <input type="text" id="add-price" placeholder="Add price">
+    <input type="text" id="add-desc" placeholder=" Add description">
+
+    <input type="submit" value="Add product" >
+
+</form>
+
+        <div id="spoiler" role="area-hidden">
+
+            <form action="javaScript:void(0);"  method="post" id="saveEdit">
+                <input type="text" id="edit-name">
+                <input type="text" id="edit-price">
+                <input type="text" id="edit-desc">
+                <input type="submit" value="Edit"> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+
+            </form>
+
+        </div>
+
+        
+
+<script src = "index.js" type="text/javaScript"></script>
+
+
+    </div>
+
+
+
+</main>
+
+
+</body>
+</html>
